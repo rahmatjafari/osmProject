@@ -1,9 +1,9 @@
 ## Build OpenStreetMap Tile Server
-Look at wiki
+Look at wiki.
 ## Download data
 [Here](https://openflights.org/data.html) you will find the openflights data.
 ## Convert data to Geojson 
-with the _convetTogeojson.py_ I extract required information and create geojson file.
+With the _convetTogeojson.py_ I extract required information and create geojson file.
 
 The geojson file is like this:
 ```json
