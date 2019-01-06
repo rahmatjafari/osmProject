@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>OpenStreetMap with Leaflet</title>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+  <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="airport_names.js"></script>
+  <script src="autocomplete.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="searchBox">
+      <div class="autocomplete" style="width:500px;">
+        <input id="myInput" type="text" name="myAirport" placeholder="Airport" value="Imam Khomeini International Airport">
+      </div>
+      <input id="submit" type="submit" onclick="myFunction()" value="search">
+    </div>
+    <div id="map" class="map"></div>
+  </div>
+
+
+  <script src="showRoute.js"></script>
+
+  <script>
+    autocomplete(document.getElementById("myInput"), airport_names);
+  </script>
+  
+</body>
+
+</html>
