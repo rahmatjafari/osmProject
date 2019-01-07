@@ -3,7 +3,7 @@ Look at wiki.
 ## Download data
 [Here](https://openflights.org/data.html) you will find the openflights data.
 ## Convert data to Geojson 
-With the _convetTogeojson.py_ I extract required information and create geojson file.
+With the _convertTogeojson.py_ I extract required information and create geojson file.
 
 The geojson file is like this:
 ```json
@@ -55,3 +55,11 @@ The geojson file is like this:
 ```
 ## Leaflet
 _showRoute.js_ use [leaflet](https://leafletjs.com/) and geojson file created before to represent routes between source airport and destination airports. 
+
+## other
+* _airport_names.js_ : array of airport names
+* _autocomplete.js_  : autocomplete text box with known airport names we define in _airport_names.js_
+
+Finaly the _index.html_ is like this:
+
+![](http://uupload.ir/files/8032_screenshot_from_2019-01-07_03-29-10.png)
