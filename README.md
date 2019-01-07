@@ -5,7 +5,7 @@ Look at wiki.
 ## Convert data to Geojson 
 With the _convertTogeojson.py_ I extract required information and create geojson file.
 
-The geojson file is like this:
+The created geojson file is like this:
 ```json
 {
   "type": "FeatureCollection",
