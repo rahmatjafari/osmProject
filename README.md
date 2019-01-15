@@ -59,6 +59,7 @@ _showRoute.js_ use [leaflet](https://leafletjs.com/) and geojson file created be
 ## other
 * _airport_names.js_ : array of airport names
 * _autocomplete.js_  : autocomplete text box with known airport names we define in _airport_names.js_
+* _airportData.json_ : created gejson file
 
 Finaly the _index.html_ is like this:
 
