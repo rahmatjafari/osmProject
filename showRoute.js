@@ -3,7 +3,7 @@
 
  // Set up the OSM layer
  L.tileLayer(
-   'http://localhost/osm_tiles/{z}/{x}/{y}.png'
+   'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
  ).addTo(map);
 
 
