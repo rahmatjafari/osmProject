@@ -10,7 +10,12 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="airport_names.js"></script>
-  <script src="autocomplete.js"></script>
+
+  <!-- <script src="autocomplete.js"></script> -->
+
+  <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
 </head>
 
@@ -29,10 +34,21 @@
 
   <script src="showRoute.js"></script>
 
-  <script>
+  <!-- <script>
     autocomplete(document.getElementById("myInput"), airport_names);
+  </script> -->
+
+  <script>
+    $(function () {
+      $("#myInput").autocomplete({
+        source: airport_names,
+        autoFocus: true
+      });
+    });
   </script>
-  
+
+
+
 </body>
 
 </html>
