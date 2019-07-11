@@ -64,8 +64,3 @@ _showRoute.js_ use [leaflet](https://leafletjs.com/) and geojson file created be
 Finaly the _index.html_ is like this:
 
 ![](http://uupload.ir/files/8032_screenshot_from_2019-01-07_03-29-10.png)
-
-## new
-<div dir="rtl" align="right">
-
-Gentelella Alela! - مستندات
